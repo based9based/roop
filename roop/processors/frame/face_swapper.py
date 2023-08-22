@@ -21,7 +21,7 @@ def get_face_swapper() -> Any:
 
     with THREAD_LOCK:
         if FACE_SWAPPER is None:
-            model_path = resolve_relative_path('../models/inswapper')
+            model_path = resolve_relative_path('../inswapper_128.onnx')
             FACE_SWAPPER = insightface.model_zoo.get_model(model_path, providers=roop.globals.execution_providers)
     return FACE_SWAPPER
 
@@ -33,7 +33,7 @@ def clear_face_swapper() -> None:
 
 
 def pre_check() -> bool:
-    download_directory_path = resolve_relative_path('../models')
+    download_directory_path = resolve_relative_path('../content/roop')
     conditional_download(download_directory_path, ['https://github.com/haofanwang/inswapper'])
     return True
 
