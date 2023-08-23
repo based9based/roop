@@ -1,5 +1,5 @@
 # Based9Based version of ROOP, No NSFW Filter, No ERRORS ;)
-Google Colab Link: https://colab.research.google.com/drive/16HvYYTvFjOTpu0cERuZ7MsiWhXbGLbjF?usp=sharing
+Google Colab Link: [Click here](https://basedbased.blogspot.com/2023/08/google-colab-for-deepfake-face-swapping.html)
 
 # Roop
 
