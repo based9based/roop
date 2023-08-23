@@ -34,7 +34,7 @@ def clear_face_swapper() -> None:
 
 def pre_check() -> bool:
     download_directory_path = resolve_relative_path('../content/roop')
-    conditional_download(download_directory_path, ['https://github.com/haofanwang/inswapper'])
+    conditional_download(download_directory_path, ['https://github.com/deepinsight/insightface'])
     return True
 
 
